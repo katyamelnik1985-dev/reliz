@@ -1,0 +1,281 @@
+body {
+    font-family: sans-serif;
+    margin:0px;
+    padding:0px;
+    background-cohttps://learn.logikaschool.com/uploads/student/3525475/698a28251184e.jpg$0lor:#FDF2F2;
+}
+header{
+background-color:#E60006;
+color:#FFFFFF;
+display:flex;
+align-items:center;
+justify-content:space-evenly;
+
+}
+nav ul{
+    display:flex;
+    gap:30px;
+    list-style:none;
+}
+nav ul:hover{
+
+color:yellow;
+}
+nav ul:focus{
+
+    outline: 2px solid white;
+    
+}
+header h1{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+
+
+}
+.img1{
+height: 250px;
+width:250px;
+margin-top:36px;
+transition: transform 0.4s ease;
+}
+.dance{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding:40px 20px;
+margin:0 auto;
+}
+.info{
+    flex: 1;
+    width: 100px;
+}
+.h-dance{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 51px;
+line-height: 75px;
+color:#000000;
+margin-bottom:21px;
+}
+.t-dance{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+color: #000000;
+}
+.hero-btn{
+    display:flex;
+    gap:20px;
+}
+.btn{
+background-color:#9D0004;
+padding: 5px 15px;
+width: 100px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 28px;
+color:#FDF2F2;
+
+}
+.btn:hover{
+    
+background-color:pink;
+color:black;
+}  
+.stules{
+
+    padding: 80px 0px;
+}
+.container{
+
+    margin: 0 auto;
+    padding: 0 40px;
+}
+.m-dance{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+
+text-align: center;
+
+}
+.style-item{
+
+    display: flex;
+    align-items: flex-start;
+    gap:60px;
+    margin-bottom: 80px;
+}
+.style-img img{
+
+    height: 350px;
+    width: 450px;
+}
+.style-text{
+
+    padding-top: 20px;
+    max-width: 380px;
+}
+.style-text h3{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+}
+.style-text p{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+}
+.teacher-section{
+
+    padding: 80px 100px ;
+    text-align: center;
+}
+.teacher-title{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+color: #E60006;
+}
+.teacher-grid{
+
+    display: flex;
+    justify-content: center;
+    gap:100px;
+}
+.teacher{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    transition: 0.3s;
+
+}
+.teacher:hover{
+    transform: scale(0.8);
+}
+.teacher img{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.teacher-name{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 42px;
+
+
+}
+.about-section{
+
+    background:linear-gradient(to bottom,#9D0004,#370001);
+    text-align: center;
+    padding:50px 100px;
+    color:white;
+}
+.about-title{ 
+font-family: 'Podkova';
+font-style: normal;
+font-weight: 400;
+font-size: 38px;
+line-height: 53px;
+}
+about-text{
+font-family: 'Podkova';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 35px;
+text-align: center;
+}
+.about-link {
+      color: white;
+      font-weight: 600;
+    }
+    .f-right img{
+
+width: 100px;
+height: 100px;
+transition: 0.3s;
+    }
+    .f-right img:hover{
+
+        transform: scale(1.15);
+    }
+    footer{
+
+        background-color: #E60006;
+        display: flex;
+        padding:50px 50px;
+        justify-content: space-between;
+        align-items: center;
+        color:white;
+    }
+    .f-left p{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+    }
+    .socials {
+      display: flex;
+      gap: 12px;
+      margin-top: 10px;
+    }
+    .social-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.3rem;
+      color: white;
+      text-decoration: none;
+      transition: 0.3s;
+
+    }
+    .social-icon:hover{
+        transform: scale(1.15);
+    }
+
+    .ig { background: linear-gradient(45deg, #896137, #e6683c, #dc2743, #cc2366, #bc1888); }
+    .tt { background: #010101; border: 1px solid #333; }
+.img1:hover{
+transform:scale(1.08);
+}
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeUp 1s ease-in forwards;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
